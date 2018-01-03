@@ -5,6 +5,7 @@ services:
     ports:
       - "80:80"
       - "5000:80"
+    restart: always
 
   snex-web:
     image: snex/web:v1.1.1
@@ -12,3 +13,4 @@ services:
       - URL_SELF=https://snex.io
       - URL_SNEX_LIB=https://cdn.snex.io/snex.v0.4.1.min.js
       - MEMCACHE_URL=memcached-12197.c2.eu-west-1-3.ec2.cloud.redislabs.com:12197
+    restart: always
