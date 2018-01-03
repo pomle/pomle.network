@@ -11,6 +11,10 @@ services:
     image: pomle/tetris-network-multiplayer
     restart: always
 
+  snex-peer-server:
+    image: snex/peer-server:latest
+    restart: always
+
   snex-web:
     image: snex/web:v1.1.1
     environment:
