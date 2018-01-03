@@ -12,7 +12,7 @@ services:
     restart: always
 
   snex-peer-server:
-    image: snex/peer-server:latest
+    image: snex/peer-server:ping
     restart: always
 
   snex-web:
