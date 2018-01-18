@@ -29,7 +29,7 @@ services:
     environment:
       - CLIENT_ID=a7cf3dcdfbd64bd5ac8d960caabbc890
       - CLIENT_SECRET=${CORDLESS_CLIENT_SECRET}
-      - REDIRECT_URI=https://auth.cordless2.pomle.com/callback
+      - REDIRECT_URI=http://auth.cordless2.pomle.com/callback
       - PLAYER_URI=https://cordless2.pomle.com/
     restart: always
 
