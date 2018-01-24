@@ -24,7 +24,7 @@ services:
     restart: always
 
   spotify-web-api-auth:
-    image: cordless2/spotify-web-api-auth:latest
+    image: cordless2/spotify-web-api-auth:master
 
     environment:
       - CLIENT_ID=a7cf3dcdfbd64bd5ac8d960caabbc890
